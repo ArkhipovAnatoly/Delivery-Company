@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<!-- Meta tags -->
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Website favicon -->
+	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="img/favicon.ico" type="image/x-icon">
+	<title>BTG &minus; Импортно-экспортная компания</title>
+	<style>
+	#loader {
+		position: fixed;
+		top: 0;
+		bottom: 0;
+		width: 100%;
+		height: 100%;
+		z-index: 9999;
+		background: #123d56 url("img/loader.svg") center no-repeat;
+	}
+	</style>
+</head>
+
+<body>
+	<div id="loader"></div>
+	<div class="fixed-mobile-header">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12">
+					<div class="fixed-mobile-wrapper">
+						<button id="toggle-menu" class=""><i class="fa fa-bars" aria-hidden="true"></i></button>
+						<span class="text-phone">8<span>-</span>(961)<span>-</span>996-25-03</span>
+						<button class="button main-header-btn mobile popup-btn" data-link="#order-call">Заказать звонок</button>
+					</div>
+				</div>
+			</div>
+			<div class="fixed-mobile-header-menu">
+				<ul class="main-navigation-list-mobile">
+					<li class="item"><a href="index.html">О компании</a></li>
+					<li class="item active"><a href="about.html">Услуги</a></li>
+					<li class="item"><a href="#">Новости</a></li>
+					<li class="item"><a href="#">Калькулятор</a></li>
+					<li class="item"><a href="#">Контакты</a></li>
+					<li class="item">
+						<label class="circle" for="mobile-search">
+						</label>
+						<input type="text" id="mobile-search"><i class="fa fa-search"></i>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="about-header">
+		<div class="container">
+			<div class="row">
+				<div class="main-header">
+					<div class="col-lg-3">
+						<div class="main-header-text">
+							<p>Импортно-экспортная компания</p>
+						</div>
+					</div>
+					<div class="col-lg-5 col-sm-12">
+						<div class="main-header-logo">
+							<img src="img/sh-line.png" class="left-line" alt="line">
+							<img src="img/logo.png" alt="BTG">
+							<img src="img/sh-line.png" class="right-line" alt="line">
+						</div>
+					</div>
+					<div class="col-lg-2 col-sm-6">
+						<div class="main-header-phone">
+							<span class="text-phone">8<span>-</span>(961)<span>-</span>996-25-03</span>
+						</div>
+					</div>
+					<div class="col-lg-2 col-sm-6">
+						<div class="main-header-order">
+							<div class="wrap">
+								<div class="wrap-block">
+									<button class="button main-header-btn popup-btn" data-link="#order-call">Заказать звонок</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="main-navigation">
+					<div class="row">
+						<div class="col-md-8 col-md-offset-2">
+							<ul class="main-navigation-list">
+								<li><a href="index.html">О компании</a></li>
+								<li class="active"><a href="about.html">Услуги</a></li>
+								<li><a href="#">Новости</a></li>
+								<li><a href="#">Калькулятор</a></li>
+								<li><a href="#">Контакты</a></li>
+								<li>
+									<label class="circle" for="search">
+										<i class="fa fa-search" aria-hidden="true"></i>
+									</label>
+									<input type="text" id="search">
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<section class="about-body">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<div class="about-services">
+						<div class="about-services-title">
+							<h2>Наши услуги</h2>
+						</div>
+						<ul>
+							<li>
+								<div class="services-block-img">
+									<img src="img/services/world.png" class="nohover" alt="1">
+									<img src="img/services/world-white.png" class="hover" alt="1">
+								</div>
+								<p>Международные грузоперевозки</p>
+							</li>
+							<li>
+								<div class="services-block-img">
+									<img src="img/services/donation.png" class="nohover" alt="2">
+									<img src="img/services/donation-white.png" class="hover" alt="2">
+								</div>
+								<p>Доставка грузов из Китая</p>
+							</li>
+							<li>
+								<div class="services-block-img">
+									<img src="img/services/secure.png" class="nohover" alt="3">
+									<img src="img/services/secure-white.png" class="hover" alt="3">
+								</div>
+								<p>Таможенное оформление</p>
+							</li>
+							<li>
+								<div class="services-block-img">
+									<img src="img/services/container.png" class="nohover" alt="4">
+									<img src="img/services/container-white.png" class="hover" alt="4">
+								</div>
+								<p>Контейнерные перевозки</p>
+							</li>
+							<li>
+								<div class="services-block-img">
+									<img src="img/services/box.png" class="nohover" alt="5">
+									<img src="img/services/box-white.png" class="hover" alt="5">
+								</div>
+								<p>Доставка сборных грузов</p>
+							</li>
+							<li>
+								<div class="services-block-img">
+									<img src="img/services/calc.png" class="nohover" alt="6">
+									<img src="img/services/calc-white.png" class="hover" alt="6">
+								</div>
+								<p>Финансирование поставок</p>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-8">
+					<div class="about-body-desc">
+						<div class="about-title">
+							<h2>Внутренняя общая страница</h2>
+						</div>
+						<p>Идейные соображения высшего порядка, а также начало повседневной работы по формированию позиции влечет за собой процесс внедрения и модернизации систем массового участия. Товарищи! постоянное информационно-пропагандистское обеспечение нашей деятельности способствует подготовки и реализации существенных финансовых и административных условий.</p>
+					</div>
+					<div class="about-body-gallery">
+						<div class="about-title">
+							<h2>Галерея изображений</h2>
+						</div>
+						<div class="about-body-gallery-wrapper">
+							<div class="row">
+								<div class="col-sm-6">
+									<div class="img img1"></div>
+								</div>
+								<div class="col-sm-6">
+									<div class="img img2"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="about-body-feedback">
+						<div class="about-title">
+							<h2>Отзывы</h2>
+							<div class="feedback feedback-block">
+								<p class="name">Ольга Петровна</p>
+								<p class="text">Спасибо вашей компании за сотрудничество, постоянно доказываете, что с вами очень приятно работать, хорошая скорость и все товары всегда в сохранности. Всем советую.</p>
+							</div>
+							<div class="feedback feedback-block">
+								<p class="name">Ирина Кенко</p>
+								<p class="text">Перевозка контейнеров с Баку до Ташкента прошли быстро, качественно успешно! Без каких либо проблем, всем советую.</p>
+							</div>
+						</div>
+					</div>
+					<div class="about-body-feedback-form">
+						<div class="about-title">
+							<h2>Оставить отзыв</h2>
+						</div>
+						<form>
+							<div class="row">
+								<div class="col-sm-6">
+									<label for="username"></label>
+									<input type="text" id="username" class="feedback-input" name="user_name" placeholder="Ваше имя" required>
+								</div>
+								<div class="col-sm-6">
+									<label for="usersurname"></label>
+									<input type="text" id="usersurname" class="feedback-input" name="user_email" placeholder="Ваше email" required>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-xs-12">
+									<label for="usermessage"></label>
+									<textarea name="user_message" id="usermessage" class="feedback-input" placeholder="Ваш отзыв" rows="10" required></textarea>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-xs-12">
+									<button type="submit" class="slider-grad-btn">Отправить</button>
+								</div>
+							</div>
+						</form>
+					</div>
+					<div class="about-body-table">
+						<div class="about-title">
+							<h2>Таблица</h2>
+						</div>
+						<div class="table-responsive">
+							<table class="table">
+								<thead>
+									<tr>
+										<th>Фамилия</th>
+										<th>Имя</th>
+										<th>Отество</th>
+										<th>Телефон</th>
+										<th>Адресс</th>
+										<th>Семейное положение</th>
+										<th>Код подразделения</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Фамилия</td>
+										<td>Имя</td>
+										<td>Отество</td>
+										<td>Телефон</td>
+										<td>Адресс</td>
+										<td>Семейное положение</td>
+										<td>Код подразделения</td>
+									</tr>
+									<tr>
+										<td>Фамилия</td>
+										<td>Имя</td>
+										<td>Отество</td>
+										<td>Телефон</td>
+										<td>Адресс</td>
+										<td>Семейное положение</td>
+										<td>Код подразделения</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+					<div class="about-body-list">
+						<div class="about-title">
+							<h2>Список</h2>
+						</div>
+						<ul>
+							<li>Пассивный вид списка</li>
+							<li>Ссылка в списке</li>
+							<li>Наведение на список</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="request">
+		<div class="container">
+			<div class="row">
+				<div class="section-title">
+					<h2>Запрос на услуги</h2>
+				</div>
+			</div>
+			<form class="site-form" method="post">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2">
+						<div class="row">
+							<div class="col-md-6">
+								<input class="site-form-input icon" name="from_country" placeholder="&#xF041; Откуда" type="text" required>
+								<input class="site-form-input" name="user_name" placeholder="Как Вас зовут?" type="text" required>
+							</div>
+							<div class="col-md-6">
+								<input class="site-form-input icon" name="to_country" placeholder="&#xF041; Куда" type="text" required>
+								<input class="site-form-input phone-input" name="user_phone" placeholder="Номер телефона" type="text" required>
+							</div>
+						</div>
+					</div>
+				</div>
+				<button class="slider-grad-btn">Получить расчет</button>
+				<p class="info">Нажав кнопку «Получить расчет», я даю согласие на обработку моих персональных данных.</p>
+			</form>
+		</div>
+	</section>
+	<footer class="footer">
+		<div class="container">
+			<div class="footer-wrapper">
+				<div class="row">
+					<div class="col-md-3">
+						<div class="footer-left">
+							<img src="img/logo-footer.png" alt="logo">
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="footer-center">
+							<ul class="footer-navigation-list">
+								<li class="item"><a href="index.html">О компании</a></li>
+								<li class="item active"><a href="about.html">Услуги</a></li>
+								<li class="item"><a href="#news">Новости</a></li>
+								<li class="item"><a href="#">Калькулятор</a></li>
+								<li class="item"><a href="#">Контакты</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="footer-right">
+							<span>Создание сайта:</span>
+							<span class="text-break"></span>
+							<img src="img/dev-logo.jpg" alt="devlogo">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<div class="popup" id="order-call">
+		<div class="popup-dialog">
+			<div class="container-fluid">
+				<div class="popup-content">
+					<button class="popup-close">&times;</button>
+					<div class="row">
+						<div class="col-xs-12">
+							<h4 class="popup-header">Заказать звонок</h4>
+						</div>
+					</div>
+					<form class="site-form" method="post">
+						<div class="row">
+							<div class="col-sm-6">
+								<input class="site-form-input" name="user_name" placeholder="Как Вас зовут?" type="text" required>
+							</div>
+							<div class="col-sm-6">
+								<input class="site-form-input phone-input" name="user_phone" placeholder="Номер телефона" type="text" required>
+							</div>
+							<!-- <p>Простите, но на данный момент<span class="text-break"></span>калькулятор не работает</p> -->
+						</div>
+						<div class="row">
+							<div class="col-xs-12">
+								<button class="slider-grad-btn" type="submit">Заказать звонок</button>
+								<p class="info"> Нажав кнопку «Заказать звонок», я даю согласие на обработку моих персональных данных.
+								</p>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="popup" id="success-bid">
+		<div class="popup-dialog">
+			<div class="container-fluid">
+				<div class="popup-content">
+					<button class="popup-close">&times;</button>
+					<div class="row">
+						<div class="col-xs-12">
+							<h4 class="popup-header">Заявка отправлена</h4>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-12">
+							<p>Мы скоро свяжемся с вами!</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<!-- Custom styles -->
+	<link rel="stylesheet" href="css/style.css">
+	<!-- Slick -->
+	<link rel="stylesheet" type="text/css" href="slick/slick.css" />
+	<!-- Slick theme -->
+	<link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- Scripts -->
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<!-- Slick Slider -->
+	<script src="slick/slick.min.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Rellax -->
+	<script src="js/rellax.min.js"></script>
+	<!-- Input mask -->
+	<script src="js/inputmask.min.js"></script>
+	<!-- Custom -->
+	<script src="js/main.js"></script>
+</body>
+
+</html>
