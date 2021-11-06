@@ -1,2 +1,3 @@
 # Delivery-Company
-Delivery Company example site
+Delivery Company web-site example   
+[View deploy](https://arkhipovanatoly.github.io/Delivery-Company/)
